@@ -4,21 +4,21 @@ const serviceData = [
         iconClass: 'bi bi-lightning-fill',
         title: 'Reaction time',
         description: 'Test your visual reflexes.',
-        url: '#'
+        url: '/reactiontime'
     },
     {
         id: 2,
-        iconClass: 'bi bi-mouse',
-        title: 'Mouse clicking',
-        description: 'Click as fast as you can.',
-        url: '#'
+        iconClass: 'bi bi-keyboard',
+        title: 'Typing Speed',
+        description: 'How many words you can type in a minute? ',
+        url: '/typespeed'
     },
     {
         id: 3,
         iconClass: 'bi bi-arrow-repeat',
         title: 'Memory game',
         description: 'Exercise your memory.',
-        url: '#'
+        url: '/memorygame'
     },
     {
         id: 4,

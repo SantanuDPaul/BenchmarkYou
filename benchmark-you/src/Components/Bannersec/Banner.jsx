@@ -12,7 +12,7 @@ export default function BannerComponent() {
           <i class="bi bi-lightning-fill" style={{ fontSize: '80px' }}></i>
           <h1 className='mb-3'>BenchmarkYourself</h1>
           <h5 className='mb-3'>Evaluate your cognitive abilities through brain games and tests</h5>
-          <MDBBtn color='warning' size="lg" className="custom-btn">Get Started</MDBBtn>
+          <MDBBtn color='warning' size="lg" className="custom-btn" href="/reactiontime">Get Started</MDBBtn>
         </div>
       </div>
     </div>

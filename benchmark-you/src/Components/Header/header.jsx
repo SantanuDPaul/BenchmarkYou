@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import {
   MDBNavbar,
   MDBContainer,
@@ -10,7 +11,9 @@ export default function App() {
     <>
       <MDBNavbar fixed='top' light bgColor='light'>
         <MDBContainer fluid>
+          <Link to='/' style={{ textDecoration: 'none' }}>
           <MDBNavbarBrand href='#'>BenchmarkYourself</MDBNavbarBrand>
+        </Link>
         </MDBContainer>
       </MDBNavbar>
     </>

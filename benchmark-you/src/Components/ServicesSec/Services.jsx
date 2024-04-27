@@ -1,15 +1,16 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './Services.css'
 import serviceData from './ServiceData';
 
 const ServiceBox = ({ iconClass, title, description, url}) => {
     return (
         <div className='service-box'>
-            <a href={url} className='card' style={{ textAlign: 'center', position: 'relative' }}>
-                <div className={iconClass} style={{ fontSize: '60px' }}></div>
-                <h3>{title}</h3>
+            <Link to={url} className='service-card' style={{ textAlign: 'center', position: 'relative' }}>
+                <div className={iconClass} style={{ fontSize: '70px' }}></div>
+                <h2>{title}</h2>
                 <p>{description}</p>
-            </a>
+            </Link>
         </div>
     );
 };

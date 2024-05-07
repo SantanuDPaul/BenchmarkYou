@@ -7,6 +7,7 @@ import Home from "./Pages/Home/home"
 import MemoryGame from "./Pages/Games/MemoryGame/MemoryGame"
 import ReactionaTime from "./Pages/Games/ReactionTime/ReactionTime"
 import TypeSpeed from "./Pages/Games/TypingSpeed/TypeSpeed"
+import WordGame from './Pages/Games/WordGame/WordGame';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/memorygame" element={<MemoryGame/>}/>
           <Route path="/reactiontime" element={<ReactionaTime/>}/>
           <Route path='/typespeed' element={<TypeSpeed/>}/>
+          <Route path='/WordGame' element={<WordGame/>}/>
           
         </Routes>
         <Footer />

@@ -9,8 +9,8 @@ const serviceData = [
     {
         id: 2,
         iconClass: 'bi bi-keyboard',
-        title: 'Typing Speed',
-        description: 'How many words you can type in a minute? ',
+        title: 'Typing Test',
+        description: 'How many words per minute? ',
         url: '/typespeed'
     },
     {
@@ -23,9 +23,9 @@ const serviceData = [
     {
         id: 4,
         iconClass: 'bi bi-chat-left-dots-fill',
-        title: 'Chat Box',
-        description: 'Start chat now.',
-        url: '#'
+        title: 'Word Game',
+        description: 'Guess the word',
+        url: '/WordGame'
     }
 ];
 

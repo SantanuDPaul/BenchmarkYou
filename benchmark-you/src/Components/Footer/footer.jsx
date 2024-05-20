@@ -31,13 +31,13 @@ const footer = () => {
                     <i className="bi bi-facebook"></i>
                   </a>
                   <a className="ialign" role='button'>
-                    <i class="bi bi-instagram"></i>
+                    <i className="bi bi-instagram"></i>
                   </a>
                   <a className="ialign" role='button'>
-                    <i class="bi bi-twitter-x"></i>
+                    <i className="bi bi-twitter-x"></i>
                   </a>
                   <a className="ialign" role='button'>
-                    <i class="bi bi-youtube"></i>
+                    <i className="bi bi-youtube"></i>
                   </a>
                 </div>
               </div>

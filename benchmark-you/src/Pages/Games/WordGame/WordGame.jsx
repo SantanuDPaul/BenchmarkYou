@@ -128,7 +128,7 @@ const WordGame = () => {
 	}; 
 
 	return ( 
-		<div className="container"> 
+		<div className="word-con"> 
 			<div className="word-head">Guess The Word</div> 
 			<div className="word-container"> 
 				{Array.from(wordData.word).map((letter, index) => ( 

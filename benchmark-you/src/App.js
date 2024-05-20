@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Header from "./Components/Header/header"
@@ -16,6 +15,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
+
           <Route path="/" element={<Home />} />
           <Route path="/memorygame" element={<MemoryGame/>}/>
           <Route path="/reactiontime" element={<ReactionaTime/>}/>
